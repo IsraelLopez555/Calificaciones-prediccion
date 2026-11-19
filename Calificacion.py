@@ -12,7 +12,7 @@ def user_input_features():
   Horas_estudio = st.number_input('Horas estudiadas:', min_value=1.0, max_value=12.0, value=12.0, step=0.5)
   Horas_sueno = st.number_input('Horas de sueño:', min_value=4.0, max_value=9.0, value=9.0, step=0.5)
   Asistencia = st.number_input('Porcentaje de asistencia (%):', min_value=50.3, max_value=100.0, value=100.0, step=1.0)
-  Calif_previa = st.number_input('Calificación previa:', min_value=40.0, max_value=95.0, value=100.0, step=1.0)
+  Calif_previa = st.number_input('Calificación previa:', min_value=40.0, max_value=95.0, value=95.0, step=1.0)
 
  user_input_data = {
       'hours_studied': Horas_estudio,
