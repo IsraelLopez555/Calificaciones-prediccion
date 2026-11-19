@@ -14,7 +14,7 @@ def user_input_features():
   Asistencia = st.number_input('Porcentaje de asistencia (%):', min_value=50.3, max_value=100.0, value=100.0, step=1.0)
   Calif_previa = st.number_input('Calificación previa:', min_value=40.0, max_value=95.0, value=95.0, step=1.0)
 
- user_input_data = {
+   user_input_data = {
       'hours_studied': Horas_estudio,
       'sleep_hours': Horas_sueno,
       'attendance_percent': Asistencia,
