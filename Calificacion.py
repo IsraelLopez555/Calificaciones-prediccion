@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.write(''' # Predicción de la calificacion  ''')
-st.image("Examen.webp", caption="Predicción de la calificacion de una persona.")
+st.image("Calificaciones.webp", caption="Predicción de la calificacion de una persona.")
 
 st.header('Datos de el estudiante')
 
